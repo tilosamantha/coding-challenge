@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Raleway:wght@100;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Montserrat:wght@100&family=Raleway:wght@100;600&display=swap');
+
+
+body {
+  background-color: rgb(242, 242, 242);
+}
+
+#banner {
+  height: 120px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 5px 7px rgb(216, 216, 216);
+}
+
+#logo {
+  height: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+}
+
+img {
+  image-rendering: crisp-edges;
+}
+
+.form-body {
+  max-width: 800px;
+  height: 450px;
+  border: 1px solid rgb(228, 228, 228);
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgb(216, 216, 216);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7%;
+}
+
+#form-header {
+  height: 100px;
+  padding: 17px;
+  text-align: center;
+  box-shadow: 0 3px 5px rgb(237, 237, 237);
+  font-size: 2.5em;
+  font-weight: 700;
+  color: rgb(67, 117, 171);
+  font-family: 'Raleway', sans-serif;
+}
+
+#form-content {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 40px 30px 20px 30px;
+  font-size: 1.5em;
+}
+
+.form-label {
+  display: flex;
+  display: inline-block;
+  text-align: right;
+  margin-right: 5%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: rgb(147, 147, 147);
+}
+
+.form-input {
+  margin-left: 5px;
+  display: inline-block;
+  font-family: 'Arimo', sans-serif;
+  font-size: .7em;
+  padding: 7px;
+  padding-left: 10px;
+  width: 350px;
+  border: 1px solid rgb(147, 147, 147);
+  border-radius: 3px;
+}
+
+.enabled-button {
+  display: inline-block;
+  width: 140px;
+  border: 1px solid rgb(0, 160, 158);
+  border-radius: 30px;
+  padding: 10px;
+  margin: 30px;
+  margin-left: 75%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.3em;
+  color: white;
+  background-color: rgb(162, 199, 88);
+  box-shadow: 0 3px 0 rgb(108, 133, 59);
+}
+
+.disabled-button {
+  display: inline-block;
+  width: 140px;
+  border: 2px solid rgb(223, 233, 219);
+  border-radius: 30px;
+  padding: 10px;
+  margin: 30px;
+  margin-left: 75%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.3em;
+  color: white;
+  background-color: rgb(238, 240, 237);
+  box-shadow: 0 3px 0 rgb(223, 233, 219);
+}

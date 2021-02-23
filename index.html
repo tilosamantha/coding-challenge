@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Softwise Form</title>
+  <link rel="stylesheet" href="styles.css" >
+</head>
+<body>
+  <div id="banner">
+    <img id="logo" src="images/logo.png" alt="W3C SVG">
+  </div>
+
+  <section class="form-body">
+    <header id="form-header">Please enter the following information</header>
+    <form id="form-content" name="user-form" >
+      <label class="form-label">
+        ssn (last 4) xxx-xx- 
+        <input
+          class="form-input"
+          type="text"
+          name="ssn"
+          placeholder="xxxx"
+          size="35"
+          required
+        />
+      </label>
+      <br />
+      <label class="form-label">
+        date of birth 
+        <input
+          class="form-input"
+          type="date"
+          name="dob"
+          placeholder="mm/dd/yyy"
+          required
+          />
+      </label>
+    </form>
+    <button type="submit" form="form-content" class="disabled-button" onclick="infoEntered()" disabled> SUBMIT </button>
+  </section>
+  
+</body>
+<script src="form.js"></script>
+</html>
